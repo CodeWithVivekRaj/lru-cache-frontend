@@ -1,6 +1,7 @@
 # LRU Cache Frontend
 
 This is the frontend for a Least Recently Used (LRU) Cache system, implemented using React. It provides a user interface to interact with the cache, allowing users to set, get, and delete key-value pairs.
+ It also includes a WebSocket endpoint to enable real-time updates of cache data.
 
 ## Features
 
@@ -27,8 +28,13 @@ The frontend consists of the following sections:
    - The delete key section allows users to remove a key-value pair from the cache.
    - Users simply input the key they want to delete, and if it exists in the cache, it is removed.
    - This feature provides users with the ability to manage the contents of the cache by removing unnecessary or outdated data.
-
-These sections collectively offer comprehensive functionality for interacting with the LRU cache, including storing, retrieving, and removing data based on user input.
+   - 
+3. **Real-Time Cache Data:**
+   - This section provides users with a real-time view of the data stored in the cache.
+   - Utilizing WebSocket technology, the frontend receives instant updates whenever there is a change in the cache content.
+   - Users can observe the latest key-value pairs in the cache without the need for manual refresh, ensuring they always have access to the most current data.
+   - This feature enhances user experience by providing a dynamic and up-to-date display of cache contents, facilitating efficient monitoring and management of data.
+   - These sections collectively offer comprehensive functionality for interacting with the LRU cache, including storing, retrieving, and removing data based on user input.
 
 ## Setup Instructions
 
