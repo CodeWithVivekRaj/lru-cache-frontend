@@ -28,7 +28,7 @@ The frontend consists of the following sections:
    - The delete key section allows users to remove a key-value pair from the cache.
    - Users simply input the key they want to delete, and if it exists in the cache, it is removed.
    - This feature provides users with the ability to manage the contents of the cache by removing unnecessary or outdated data.
-   - 
+ 
 3. **Real-Time Cache Data:**
    - This section provides users with a real-time view of the data stored in the cache.
    - Utilizing WebSocket technology, the frontend receives instant updates whenever there is a change in the cache content.
